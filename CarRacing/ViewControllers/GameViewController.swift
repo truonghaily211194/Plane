@@ -198,7 +198,7 @@ final class GameViewController: UIViewController {
     private func presentLeaderboard() {
 
             let alertController = UIAlertController(
-                title: "Racing Car",
+                title: "Mobile Car Racing",
                 message: Strings.gcErrorMessage.localized,
                 preferredStyle: .alert)
             

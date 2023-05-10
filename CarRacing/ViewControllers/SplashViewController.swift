@@ -101,7 +101,7 @@ final class SplashViewController: UIViewController {
         innerVerticalStackView.addArrangedSubview(imageView)
 
         let titleLabel = UILabel()
-        titleLabel.text = "RACING CAR"
+        titleLabel.text = "Mobile Car Racing"
         titleLabel.font = .systemFont(ofSize: 24, weight: .black)
         titleLabel.textAlignment = .center
         titleLabel.textColor = .white
