@@ -13,12 +13,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.backgroundColor = .white
-        let vc = GameViewController()
-        window?.rootViewController = vc
-        window?.makeKeyAndVisible()
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let viewController = Globals.rootViewController
+        viewController.modalPresentationStyle = .fullScreen
+        viewController.modalTransitionStyle = .crossDissolve
+        
+        window.backgroundColor = UIColor.road
+        window.rootViewController = viewController
+        self.window = window
+        
+        window.makeKeyAndVisible()
         return true
     }
 }

@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  DriveFast
+
+  Created by Atilla Özder on 17.03.2020.
+  Copyright © 2020 Atilla Özder. All rights reserved.
+*/
+
+"scoreTitle" = "Skor";
+"highscoreTitle" = "En iyi";
+"newGameTitle" = "Oyna";
+"advButtonTitle" = "Yarışa devam edebilmek için bir reklam izle";
+"settingsTitle" = "Ayarlar";
+"backToMenuTitle" = "Ana Menü";
+"rateTitle" = "Bize puan ver";
+"supportTitle" = "Destek";
+"otherAppsTitle" = "Diğer Uygulamalar";
+"privacyTitle" = "Gizlilik Sözleşmesi";
+"shareTitle" = "Uygulamayı paylaş";
+"continueTitle" = "Devam Et";
+"garageTitle" = "Garaj";
+"chooseTitle" = "Seç";
+"loadingTitle" = "Yükleniyor...";
+"okTitle" = "Tamam";
+"gcErrorMessage" = "Skor tablosuna erişilemiyor. Lütfen Game Center'a bağlı olduğunuzdan emin olun ve tekrar deneyin.";
+"fuelAlert" = "Yakıt Tükeniyor!";
+"resetDataSharingConfigurationsTitle" = "Veri Paylaşım Ayarlarını Sıfırla";
